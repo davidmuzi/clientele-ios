@@ -5,7 +5,7 @@ Clientele is an example iOS app written in SwiftUI that authenticates to Shopify
 
 ![screen shot](./Clientele/Assets/screenShot.png)
 
-Authentication uses OAuth with the help of `ASWebAuthenticationSession` on the client, and the [worker.js](Server/worker.js) script which can be hosted as a serverless function, like a [Cloudflare Worker](https://workers.cloudflare.com).
+Authentication uses OAuth with the help of `ASWebAuthenticationSession` on the client, and the [worker.js](Clientele/Server/worker.js) script which can be hosted as a serverless function, like a [Cloudflare Worker](https://workers.cloudflare.com).
 
 For persistance, the app uses Shopify's API to associate data to resources as [metafields](https://shopify.dev/docs/admin-api/rest/reference/metafield?api[version]=2020-07).
 
