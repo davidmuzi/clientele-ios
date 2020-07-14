@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED43CC424B5035B004BE4C9 /* ClienteleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CC324B5035B004BE4C9 /* ClienteleApp.swift */; };
+		DED43CC624B5035B004BE4C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CC524B5035B004BE4C9 /* LoginView.swift */; };
+		DED43CC824B5035D004BE4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED43CC724B5035D004BE4C9 /* Assets.xcassets */; };
+		DED43CCB24B5035D004BE4C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED43CCA24B5035D004BE4C9 /* Preview Assets.xcassets */; };
+		DED43CD324B5066E004BE4C9 /* ShopifyAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CD224B5066E004BE4C9 /* ShopifyAuth.swift */; };
+		DED43CD624B5097D004BE4C9 /* ShopifyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CD524B5097D004BE4C9 /* ShopifyClient.swift */; };
+		DED43CD824B509BB004BE4C9 /* ShopifyCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CD724B509BB004BE4C9 /* ShopifyCustomer.swift */; };
+		DED43CDA24B50B48004BE4C9 /* LoginViewHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CD924B50B48004BE4C9 /* LoginViewHost.swift */; };
+		DED43CEA24B51AAA004BE4C9 /* ShopifyToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CE924B51AAA004BE4C9 /* ShopifyToken.swift */; };
+		DED43CF224B55A62004BE4C9 /* CustomerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CF124B55A62004BE4C9 /* CustomerListView.swift */; };
+		DED43CF624B56BD7004BE4C9 /* CustomersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CF524B56BD7004BE4C9 /* CustomersViewModel.swift */; };
+		DED43CF924B56C12004BE4C9 /* CustomerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CF824B56C12004BE4C9 /* CustomerDetailView.swift */; };
+		DED43CFD24B5FC90004BE4C9 /* OrdersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CFC24B5FC90004BE4C9 /* OrdersListView.swift */; };
+		DED43CFF24B5FCEF004BE4C9 /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43CFE24B5FCEF004BE4C9 /* OrdersViewModel.swift */; };
+		DED43D0124B5FDBB004BE4C9 /* ShopifyOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0024B5FDBB004BE4C9 /* ShopifyOrder.swift */; };
+		DED43D0324B625D9004BE4C9 /* MetafieldCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0224B625D9004BE4C9 /* MetafieldCreationView.swift */; };
+		DED43D0524B6268E004BE4C9 /* Metafield.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0424B6268E004BE4C9 /* Metafield.swift */; };
+		DED43D0724B6326F004BE4C9 /* MetafieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0624B6326F004BE4C9 /* MetafieldViewModel.swift */; };
+		DED43D0A24B685AC004BE4C9 /* Colour+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0924B685AC004BE4C9 /* Colour+Extensions.swift */; };
+		DED43D0C24B6865F004BE4C9 /* Metafield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0B24B6865F004BE4C9 /* Metafield+Extensions.swift */; };
+		DED43D0E24B68B6F004BE4C9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D0D24B68B6F004BE4C9 /* ActivityIndicator.swift */; };
+		DED43D1224B75864004BE4C9 /* URLSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D1124B75864004BE4C9 /* URLSession+Extensions.swift */; };
+		DED43D5024BD2A5E004BE4C9 /* EnvironmentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED43D4F24BD2A5E004BE4C9 /* EnvironmentWrapper.swift */; };
+		DED43D5324BD2BE9004BE4C9 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DED43D5224BD2BE9004BE4C9 /* readme.md */; };
+		DED43D5524BD2D2C004BE4C9 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DED43D5424BD2D2C004BE4C9 /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DED43CC024B5035B004BE4C9 /* Clientele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clientele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED43CC324B5035B004BE4C9 /* ClienteleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClienteleApp.swift; sourceTree = "<group>"; };
+		DED43CC524B5035B004BE4C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DED43CC724B5035D004BE4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DED43CCA24B5035D004BE4C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DED43CCC24B5035D004BE4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED43CD224B5066E004BE4C9 /* ShopifyAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyAuth.swift; sourceTree = "<group>"; };
+		DED43CD524B5097D004BE4C9 /* ShopifyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyClient.swift; sourceTree = "<group>"; };
+		DED43CD724B509BB004BE4C9 /* ShopifyCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyCustomer.swift; sourceTree = "<group>"; };
+		DED43CD924B50B48004BE4C9 /* LoginViewHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewHost.swift; sourceTree = "<group>"; };
+		DED43CE924B51AAA004BE4C9 /* ShopifyToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyToken.swift; sourceTree = "<group>"; };
+		DED43CF124B55A62004BE4C9 /* CustomerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListView.swift; sourceTree = "<group>"; };
+		DED43CF524B56BD7004BE4C9 /* CustomersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersViewModel.swift; sourceTree = "<group>"; };
+		DED43CF824B56C12004BE4C9 /* CustomerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailView.swift; sourceTree = "<group>"; };
+		DED43CFC24B5FC90004BE4C9 /* OrdersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersListView.swift; sourceTree = "<group>"; };
+		DED43CFE24B5FCEF004BE4C9 /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		DED43D0024B5FDBB004BE4C9 /* ShopifyOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopifyOrder.swift; sourceTree = "<group>"; };
+		DED43D0224B625D9004BE4C9 /* MetafieldCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetafieldCreationView.swift; sourceTree = "<group>"; };
+		DED43D0424B6268E004BE4C9 /* Metafield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metafield.swift; sourceTree = "<group>"; };
+		DED43D0624B6326F004BE4C9 /* MetafieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetafieldViewModel.swift; sourceTree = "<group>"; };
+		DED43D0924B685AC004BE4C9 /* Colour+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colour+Extensions.swift"; sourceTree = "<group>"; };
+		DED43D0B24B6865F004BE4C9 /* Metafield+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metafield+Extensions.swift"; sourceTree = "<group>"; };
+		DED43D0D24B68B6F004BE4C9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		DED43D1124B75864004BE4C9 /* URLSession+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extensions.swift"; sourceTree = "<group>"; };
+		DED43D4E24BCCE49004BE4C9 /* worker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = worker.js; sourceTree = "<group>"; };
+		DED43D4F24BD2A5E004BE4C9 /* EnvironmentWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentWrapper.swift; sourceTree = "<group>"; };
+		DED43D5224BD2BE9004BE4C9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		DED43D5424BD2D2C004BE4C9 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED43CBD24B5035B004BE4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED43CB724B5035B004BE4C9 = {
+			isa = PBXGroup;
+			children = (
+				DED43CC224B5035B004BE4C9 /* Clientele */,
+				DED43CC124B5035B004BE4C9 /* Products */,
+				DED43D1E24B76A7E004BE4C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DED43CC124B5035B004BE4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CC024B5035B004BE4C9 /* Clientele.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED43CC224B5035B004BE4C9 /* Clientele */ = {
+			isa = PBXGroup;
+			children = (
+				DED43D0824B6859C004BE4C9 /* Extensions */,
+				DED43CFB24B5FC80004BE4C9 /* Orders */,
+				DED43CD424B50835004BE4C9 /* Shopify */,
+				DED43CFA24B5F987004BE4C9 /* Login */,
+				DED43CF724B56C04004BE4C9 /* Customers */,
+				DED43CC724B5035D004BE4C9 /* Assets.xcassets */,
+				DED43CCC24B5035D004BE4C9 /* Info.plist */,
+				DED43CC924B5035D004BE4C9 /* Preview Content */,
+				DED43D5124BD2BD7004BE4C9 /* Server */,
+				DED43D5424BD2D2C004BE4C9 /* readme.md */,
+			);
+			path = Clientele;
+			sourceTree = "<group>";
+		};
+		DED43CC924B5035D004BE4C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CCA24B5035D004BE4C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DED43CD424B50835004BE4C9 /* Shopify */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CD224B5066E004BE4C9 /* ShopifyAuth.swift */,
+				DED43CD524B5097D004BE4C9 /* ShopifyClient.swift */,
+				DED43CD724B509BB004BE4C9 /* ShopifyCustomer.swift */,
+				DED43CE924B51AAA004BE4C9 /* ShopifyToken.swift */,
+				DED43D0024B5FDBB004BE4C9 /* ShopifyOrder.swift */,
+				DED43D0424B6268E004BE4C9 /* Metafield.swift */,
+			);
+			path = Shopify;
+			sourceTree = "<group>";
+		};
+		DED43CF724B56C04004BE4C9 /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CF124B55A62004BE4C9 /* CustomerListView.swift */,
+				DED43CF824B56C12004BE4C9 /* CustomerDetailView.swift */,
+				DED43CF524B56BD7004BE4C9 /* CustomersViewModel.swift */,
+				DED43D0224B625D9004BE4C9 /* MetafieldCreationView.swift */,
+				DED43D0624B6326F004BE4C9 /* MetafieldViewModel.swift */,
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		DED43CFA24B5F987004BE4C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CC324B5035B004BE4C9 /* ClienteleApp.swift */,
+				DED43CD924B50B48004BE4C9 /* LoginViewHost.swift */,
+				DED43CC524B5035B004BE4C9 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DED43CFB24B5FC80004BE4C9 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				DED43CFC24B5FC90004BE4C9 /* OrdersListView.swift */,
+				DED43CFE24B5FCEF004BE4C9 /* OrdersViewModel.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		DED43D0824B6859C004BE4C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DED43D4F24BD2A5E004BE4C9 /* EnvironmentWrapper.swift */,
+				DED43D0924B685AC004BE4C9 /* Colour+Extensions.swift */,
+				DED43D0B24B6865F004BE4C9 /* Metafield+Extensions.swift */,
+				DED43D0D24B68B6F004BE4C9 /* ActivityIndicator.swift */,
+				DED43D1124B75864004BE4C9 /* URLSession+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DED43D1E24B76A7E004BE4C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED43D5124BD2BD7004BE4C9 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				DED43D4E24BCCE49004BE4C9 /* worker.js */,
+				DED43D5224BD2BE9004BE4C9 /* readme.md */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED43CBF24B5035B004BE4C9 /* Clientele */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED43CCF24B5035D004BE4C9 /* Build configuration list for PBXNativeTarget "Clientele" */;
+			buildPhases = (
+				DED43CBC24B5035B004BE4C9 /* Sources */,
+				DED43CBD24B5035B004BE4C9 /* Frameworks */,
+				DED43CBE24B5035B004BE4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clientele;
+			productName = Clientele;
+			productReference = DED43CC024B5035B004BE4C9 /* Clientele.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED43CB824B5035B004BE4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DED43CBF24B5035B004BE4C9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = DED43CBB24B5035B004BE4C9 /* Build configuration list for PBXProject "Clientele" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED43CB724B5035B004BE4C9;
+			packageReferences = (
+			);
+			productRefGroup = DED43CC124B5035B004BE4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED43CBF24B5035B004BE4C9 /* Clientele */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED43CBE24B5035B004BE4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED43CCB24B5035D004BE4C9 /* Preview Assets.xcassets in Resources */,
+				DED43D5324BD2BE9004BE4C9 /* readme.md in Resources */,
+				DED43D5524BD2D2C004BE4C9 /* readme.md in Resources */,
+				DED43CC824B5035D004BE4C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED43CBC24B5035B004BE4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED43CC624B5035B004BE4C9 /* LoginView.swift in Sources */,
+				DED43D0324B625D9004BE4C9 /* MetafieldCreationView.swift in Sources */,
+				DED43D0124B5FDBB004BE4C9 /* ShopifyOrder.swift in Sources */,
+				DED43D0C24B6865F004BE4C9 /* Metafield+Extensions.swift in Sources */,
+				DED43D0E24B68B6F004BE4C9 /* ActivityIndicator.swift in Sources */,
+				DED43CD324B5066E004BE4C9 /* ShopifyAuth.swift in Sources */,
+				DED43CFD24B5FC90004BE4C9 /* OrdersListView.swift in Sources */,
+				DED43CDA24B50B48004BE4C9 /* LoginViewHost.swift in Sources */,
+				DED43CFF24B5FCEF004BE4C9 /* OrdersViewModel.swift in Sources */,
+				DED43CD824B509BB004BE4C9 /* ShopifyCustomer.swift in Sources */,
+				DED43CF224B55A62004BE4C9 /* CustomerListView.swift in Sources */,
+				DED43D1224B75864004BE4C9 /* URLSession+Extensions.swift in Sources */,
+				DED43CEA24B51AAA004BE4C9 /* ShopifyToken.swift in Sources */,
+				DED43D0524B6268E004BE4C9 /* Metafield.swift in Sources */,
+				DED43D0A24B685AC004BE4C9 /* Colour+Extensions.swift in Sources */,
+				DED43D0724B6326F004BE4C9 /* MetafieldViewModel.swift in Sources */,
+				DED43D5024BD2A5E004BE4C9 /* EnvironmentWrapper.swift in Sources */,
+				DED43CC424B5035B004BE4C9 /* ClienteleApp.swift in Sources */,
+				DED43CD624B5097D004BE4C9 /* ShopifyClient.swift in Sources */,
+				DED43CF624B56BD7004BE4C9 /* CustomersViewModel.swift in Sources */,
+				DED43CF924B56C12004BE4C9 /* CustomerDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DED43CCD24B5035D004BE4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DED43CCE24B5035D004BE4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED43CD024B5035D004BE4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clientele/Preview Content\"";
+				DEVELOPMENT_TEAM = HWU4UAU436;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Clientele/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muzi.Clientele;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DED43CD124B5035D004BE4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clientele/Preview Content\"";
+				DEVELOPMENT_TEAM = HWU4UAU436;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Clientele/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muzi.Clientele;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED43CBB24B5035B004BE4C9 /* Build configuration list for PBXProject "Clientele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED43CCD24B5035D004BE4C9 /* Debug */,
+				DED43CCE24B5035D004BE4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED43CCF24B5035D004BE4C9 /* Build configuration list for PBXNativeTarget "Clientele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED43CD024B5035D004BE4C9 /* Debug */,
+				DED43CD124B5035D004BE4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED43CB824B5035B004BE4C9 /* Project object */;
+}
